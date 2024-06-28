@@ -74,9 +74,9 @@ const JobPreview = () => {
   ];
 
   return (
-    <div className="job-preview-main-container flex box-border ">
+    <div className="job-preview-main-container flex box-border   ">
       {/* Job Previews Left Section */}
-      <div className="job-preview-left-section w-[70%] py-[24px]  border-r-2 border-gray-200 ">
+      <div className="job-preview-left-section w-[85%] py-[32px]  border-r-2 border-gray-200 ">
         {/* Job Preview Header */}
         <div className="job-preview-header space-y-4 pb-8 pl-[100px]">
           <div className="job-preview-header-detail-type-a flex  items-center gap-x-2">
@@ -121,7 +121,7 @@ const JobPreview = () => {
         <hr />
 
         {/* Skill, Languages & Type */}
-        <div className="job-preview-further-details grid grid-flow-col py-8 grid-cols-4 pl-[100px]">
+        <div className="job-preview-further-details flex justify-start gap-x-32 mt-4 pl-[100px]">
           {/* Skills */}
           <div className="skills-required-contianer space-y-2 ">
             <div className="container-heading text-[14px] text-[#6E6D6D]">
@@ -274,8 +274,8 @@ const JobPreview = () => {
       </div>
 
       {/* Job Preview Right Section */}
-      <div className="job-preview-right-section mx-auto space-y-8 py-[24px]">
-        <div className="job-preview-action-btn-menu flex gap-2">
+      <div className="job-preview-right-section mx-auto space-y-10 py-[32px] px-10 box-border">
+        <div className="job-preview-action-btn-menu flex gap-x-6">
           <button className="delete-job-btn min-w-[172px] bg-[#FEF4F2] hover:bg-[#DC4A2D] hover:text-white delay-100 ease-in-out flex justify-center items-center gap-x-2  max-w-fit h-[46px] rounded-lg border-2 border-[#DC4A2D] text-[#DC4A2D] px-2 text-[16px] font-[500] leading-[22px] ">
             <RiDeleteBin6Line /> Delete Job
           </button>
@@ -312,7 +312,7 @@ const JobPreview = () => {
           <hr />
 
           {/* Messages */}
-          <div className="job-stats-messages  flex justify-between items-center">
+          <div className="job-stats-messages  flex justify-between items-center ">
             <div className="jobs-stat-type text-[16px] flex items-center gap-x-2 leading-[22px] font-[500] text-[#4F4F4F]">
               <FiMessageSquare size={20} color="#4F4F4F" />
               <div className="job-stat-type-heading">Messages</div>

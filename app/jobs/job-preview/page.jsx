@@ -5,10 +5,10 @@ import { IoLocationOutline } from "react-icons/io5";
 import { GrMoney } from "react-icons/gr";
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { GrEdit } from "react-icons/gr";
-import AdobeXD from "../../public/adbxd.webp";
-import AdobeAI from "../../public/adbai.png";
-import Figma from "../../public/fig.webp";
-import Atlassian from "../../public/images.png";
+import AdobeXD from "../../../public/adbxd.webp";
+import AdobeAI from "../../../public/adbai.png";
+import Figma from "../../../public/fig.webp";
+import Atlassian from "../../../public/images.png";
 import { MdPeopleOutline } from "react-icons/md";
 import { IoEyeOutline } from "react-icons/io5";
 import { MdHowToReg } from "react-icons/md";
@@ -76,7 +76,7 @@ const JobPreview = () => {
   return (
     <div className="job-preview-main-container flex box-border ">
       {/* Job Previews Left Section */}
-      <div className="job-preview-left-section w-[70%] py-[24px]  border-r border-gray-200 ">
+      <div className="job-preview-left-section w-[70%] py-[24px]  border-r-2 border-gray-200 ">
         {/* Job Preview Header */}
         <div className="job-preview-header space-y-4 pb-8 pl-[100px]">
           <div className="job-preview-header-detail-type-a flex  items-center gap-x-2">
@@ -87,7 +87,7 @@ const JobPreview = () => {
             <div className="job-posting-time text-[#888888] font-[500] text-[14px]">
               posted 3 days ago
             </div>
-            <div className="job-posting-indicator w-fit border border-green-300 flex  items-center justify-center text-green-700 text-[12px] bg-green-50 rounded-full font-[500] box-border h-[22px] px-1">
+            <div className="job-posting-indicator w-fit border border-green-300 flex  items-center justify-center text-green-700 text-[12px] bg-green-50 rounded-full font-[500] box-border h-[22px] pr-2 py-1 cursor-none">
               <span>
                 <BsDot size={40} color="#17B26A" className="w-[20px]" />
               </span>
@@ -288,7 +288,7 @@ const JobPreview = () => {
         <div className="job-stats space-y-6">
           {/* Applicants */}
           <div className="job-stats-applicants  flex justify-between items-center">
-            <div className="jobs-stat-type flex items-center gap-x-2 items-center">
+            <div className="jobs-stat-type flex  gap-x-2 items-center">
               <MdPeopleOutline size={20} color="#4F4F4F" />
               <div className="job-stat-type-heading  text-[16px] leading-[22px] font-[500] text-[#4F4F4F]">
                 Applicants
